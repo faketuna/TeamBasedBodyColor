@@ -69,7 +69,7 @@ public void OnConfigsExecuted() {
         case INVALID_COLOR_ALPHA:
             SetFailState("The value of alpha in sm_team_color_ct is invalid! Check your plugin config!");
     }
-    g_bLoading = true;
+    g_bLoading = false;
 }
 
 public void OnTColorChanged(ConVar convar, const char[] oldValue, const char[] newValue) {
